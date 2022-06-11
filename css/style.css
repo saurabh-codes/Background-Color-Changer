@@ -1,0 +1,148 @@
+/* General Values Start */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* End General Values */
+
+
+/* Header Section Start */
+#header{
+    background-color: #94b49f;
+    padding: 1rem 1rem 1rem 6rem;
+    text-shadow: 2px 2px #5cdb95;
+    color: #edf5e1;     
+}
+
+#header h2{
+    font-weight: bold;
+}
+/* End Header Section */
+
+
+/* Body Section Start */
+#container{
+    padding: 1.25rem 6rem;
+    background-color: #edf5e1;
+}
+
+/* Color Switch Button */
+#color_btn{
+    text-align: center
+}
+
+.btn{
+    width: 1.25rem;
+    height: 1.25rem;
+    display: inline-block;
+    border: 2px solid #94b49f;
+    cursor: pointer;
+}
+
+.btn:hover{
+    border: 3px solid #5cdb95;
+    transition: 0.3s all ease-in-out;
+}
+
+/* Color */
+#color_a{
+    background-color: #a760ff;
+}
+
+#color_b{
+    background-color: #7c3e66;
+}
+
+#color_c{
+   background-color: #f2d1d1;
+}
+
+#color_d{
+   background-color: #fef9a7; 
+}
+
+/* Heading */
+#Heading{
+    background-color: #94b49f;
+    padding: 1rem 6rem;
+    color: #edf5e1;
+}
+
+#Heading h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#img img{
+    width: 100%;
+    height: auto;
+    border: 2px solid #94b49f;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#img p{
+    font-size: 1.125rem;
+    color: #94b49f;
+    text-align: justify;
+}
+
+/* End Body Section */
+
+
+/* Footer Section Start */
+#copyright{
+    background-color: #94b49f;
+    text-align: center;
+    color: #fcf8e8;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+/* End Footer Section */
+
+
+/* Responsive Design Start */
+@media only screen and (max-width: 570px){
+
+    /* Header Section Start */
+    #header h2{   
+        display: inline-block;  
+    }
+
+    #header{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;  
+    }
+
+    /* End Header Section */
+
+
+    /* Body Section Start */
+    #container{
+        padding: 1rem 2rem;
+    }
+
+    #Heading{
+        padding: 1rem 1rem;
+    }
+
+    #Heading h1{
+        font-size: 1.5rem;
+    }
+
+    /* End Body Section */
+
+}
+
+/* End Responsive Design */
